@@ -1,0 +1,48 @@
+body {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.accent-font, h1, h2, h3, h4, h5, h6 {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+body > nav:first-of-type {
+  border-bottom: black 1px solid;
+}
+
+a:not(.nav-link) {
+  text-decoration: none;
+  color: #614d35; /*very dark perkament*/
+}
+
+a:not(.nav-link):hover{
+  background-color: #614d35;
+  color: white;
+}
+
+.dark-perkament-bg {
+  background-color: #DCC4A9;
+}
+
+.light-perkament-bg {
+  background-color: #EADBCB;
+}
+
+.very-dark-perkament-font {
+  color: #614d35;
+}
+
+.dark-perkament-font {
+  color: #DCC4A9;
+}
+
+.light-perkament-font {
+  color: #EADBCB;
+}
